@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+.container {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(165, 132, 249), rgb(4, 0, 255));
+  width: 100%;
+  background-size: cover;
+}
+
+.title {
+  text-shadow: -1px 5px 15px rgb(33, 136, 161);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding:10px 0;
+  border-radius: 15px;
+  color: aliceblue;
+  text-align: center;
+  margin: 10px 5px;
+
+}
+.title h1{
+  font-size: 3rem;
+}
+
+.title h3 {
+ font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* card css */
+.card {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+  gap: 75px; /* change the gap value */
+  flex-wrap: wrap;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 275px;
+  height: 375px;
+  perspective: 1000px;
+  font-family: sans-serif;
+}
+
+.cardtitle {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.flip-card-front {
+  background:#fff;
+  color: #4a00f8;
+}
+.flip-card-front :nth-child(1){
+  background:#fff;
+  color: #4a00f8;
+}
+
+
+
+.flip-card-front img{
+  padding: 15px;
+}
+
+.flip-card-back {
+   background: linear-gradient(135deg , #88104d, #001d3e, #88104d);
+  color: #fff;
+  transform: rotateY(180deg);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  background-image: url
+}
+
+.flip-card-back a {
+  color: white;
+}
+.ClickR{
+  padding: 5px;
+  margin: 4px;
+  border: 2px solid #fff;
+  display: inline-block;
+  color:#fff;
+  text-align:center;
+  font-size:1.3rem;
+  background:#001d3e;
+  border-radius: 5px;
+  }
+  .spon{
+    text-align: center;
+  }
