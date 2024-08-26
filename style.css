@@ -69,8 +69,8 @@ html{
     position: absolute;
     top: 2px;
     padding: 0 1.8rem;
-     width: 100%;
-    margin-top: 10px;
+    width: 100%;
+    margin-top: 10px; 
     background: rgba(255, 255, 255, 0.091);
     backdrop-filter: blur(4px);
     border-radius:10px;
@@ -86,7 +86,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 70px;
+    /* border-radius: 70px; */
    
   }
   
@@ -202,14 +202,26 @@ html{
     /* navbar css ends here */
 
 
- .heading h1{
-  color: #fff;
-  font-family: 'Audiowide', cursive;
-  font-size:10rem;
-  text-shadow: 3.5px 3.5px rgb(138, 84, 4) ;
-  position: relative;
-  margin-left: 20px;
-}
+    .heading h1{
+      color: #fff;
+      font-family: 'Audiowide', cursive;
+      font-size:10rem;
+      text-shadow: 3.5px 3.5px rgb(138, 84, 4) ;
+      position: relative;
+      margin-left: 20px;
+      animation: example 5s ease-in;
+      animation-iteration-count: infinite;}
+    
+      @keyframes example {
+        0%   {color: white;}
+      14.2%  {color: yellow;}
+      28.5%  {color: orange;}
+      42.67%  {color: #551818;}
+      56.92%  {color: orange}
+      71.6%  {color: yellow;}
+      100% {color:white;}
+        
+      }
  
  .heading p{
   color: azure;
@@ -380,9 +392,9 @@ html{
   margin: 20px;
 }
 
-.overviewpost video{
+.overviewpost img{
   width: 100%;
-   aspect-ratio: 16/9;
+   /* aspect-ratio: 16/9; */
    border-radius: 10px;
 
 }
@@ -630,7 +642,7 @@ footer{
   
 
 
-  .pccoe_map{
+  .dypcoe_map{
     height:20rem;
     width: 20rem;
     border: solid #fff 1px;
