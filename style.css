@@ -60,7 +60,7 @@ html{
   
   
   .navbar a:hover{
-    color: aqua;
+    color: orange;
     font-size: 17px;
     transition: smooth;
   }
@@ -92,8 +92,10 @@ html{
   
   
   .navbar .logo img{
-    height: 50px;
-    width: 50px;
+    margin-top: 0px;
+    height: 10rem;
+    width: 12rem;
+
     
    
   }
@@ -102,7 +104,7 @@ html{
   margin-left: 10px;
   font-size: 25px;
   color: rgb(255, 255, 255);
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 100;
   font-style: normal;
   text-decoration: dashed;
@@ -219,7 +221,7 @@ html{
       42.67%  {color: #551818;}
       56.92%  {color: orange}
       71.6%  {color: yellow;}
-      100% {color:white;}
+      100% {color:white;} 
         
       }
  
