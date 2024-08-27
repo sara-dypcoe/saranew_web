@@ -29,6 +29,7 @@
                 <li><a href="Events.html">Events</a></li>
                 <li><a href="Sponsor.html">Sponsors</a></li>
                 <li><a href="team.html">Our Team</a></li>
+                <li><a href="webteam.html">Web Team</a></li>
             </ul>
             <div class="toggle_btn">
 
@@ -43,6 +44,7 @@
             <li><a href="Events.html">Event</a></li>
             <li><a href="Sponsor.html">Sponsors</a></li>
             <li><a href="team.html">Our Team</a></li>
+            <li><a href="webteam.html">Web Team</a></li>
     
         </div>
     </div>
@@ -60,7 +62,7 @@
             <div class="content">
                 <div class="imgBx"><img src="image/id.jpg" alt="profile pic"></div>
                 <div class="contentBx">
-                    <h3>Mr. Vipul Rathod<br><span>Organizer</span></h3>
+                    <h3>Mr. Vipul Rathod<br><span>Faculty co-Ordinator</span></h3>
                 </div>
             </div>
        
@@ -1799,7 +1801,7 @@ let stars = [];
 let pointerX,
     pointerY;
 
-let velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0005 };
+let velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0065 };
 
 let touchInput = false;
 
@@ -1951,8 +1953,8 @@ function render() {
         tailY = velocity.y * 2;
 
     // stroke() wont work on an invisible line
-    if( Math.abs( tailX ) < 0.1 ) tailX = 0.5;
-    if( Math.abs( tailY ) < 0.1 ) tailY = 0.5;
+    if( Math.abs( tailX ) < 0.1 ) tailX = 1.0;
+    if( Math.abs( tailY ) < 0.1 ) tailY = 1.0;
 
     context.lineTo( star.x + tailX, star.y + tailY );
 

@@ -63,7 +63,9 @@ canvas {
   
   
   .navbar a:hover{
-    color: aqua;
+    color: orange;
+    font-size: 27px;
+    transition: smooth;
   }
   
   header{
