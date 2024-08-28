@@ -1,5 +1,5 @@
 const langs = [
-	"Hello World",
+	"Om Harsule",
 	"مرحبا بالعالم",
 	"Salam Dünya",
 	"Прывітанне Сусвет",
