@@ -208,7 +208,7 @@ html{
       color: #fff;
       font-family: 'Audiowide', cursive;
       font-size:10rem;
-      transition: smooth;
+      transition: all 1s ease-in;
       text-shadow: 3.5px 3.5px rgb(138, 84, 4) ;
       position: relative;
       margin-left: 20px;
