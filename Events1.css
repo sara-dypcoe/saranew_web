@@ -54,15 +54,16 @@ height: 100%;
 }
 
 header{
-  position:relative;
+  position: relative;
   z-index: 2;
   padding: 0 2rem;
   margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
   background: rgba(255, 255, 255, 0.091);
   backdrop-filter: blur(15px);
   border-radius:10px;
   width: 98%;
-
 }
 
 .navbar{
@@ -78,8 +79,8 @@ header{
 
 
 .navbar .logo img{
-  height: 120px;
-  width: 120px;
+  height: 130px;
+  width: 130px;
 }
 
 .navbar .links{

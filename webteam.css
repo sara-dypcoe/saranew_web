@@ -278,7 +278,7 @@ canvas {
     
 .container .box:nth-child(3):before,
 .container .box:nth-child(3):after{    
- background: linear-gradient(315deg, #4dff03, #00d0ff)
+ background: linear-gradient(315deg, #768087, #87ceeb)
 }
     
 .container .box span
@@ -475,7 +475,7 @@ canvas {
     
 .container .box:nth-child(3):before,
 .container .box:nth-child(3):after{    
- background: linear-gradient(315deg, #4dff03, #00d0ff)
+ background: linear-gradient(315deg, #768087, #87ceeb)
 }
     
 .container .box span
