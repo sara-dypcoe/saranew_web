@@ -29,6 +29,7 @@
                 <li><a href="Events.html">Events</a></li>
                 <li><a href="Sponsor.html">Sponsors</a></li>
                 <li><a href="team.html">Our Team</a></li>
+                <li><a href="webteam.html">Web Team</a></li>
             </ul>
             <div class="toggle_btn">
 
@@ -43,6 +44,7 @@
             <li><a href="Events.html">Event</a></li>
             <li><a href="Sponsor.html">Sponsors</a></li>
             <li><a href="team.html">Our Team</a></li>
+            <li><a href="webteam.html">Web Team</a></li>
     
         </div>
     </div>
@@ -58,9 +60,9 @@
 <div class="container">
 <div class="cards">
             <div class="content">
-                <div class="imgBx"><img src="image/id.jpg" alt="profile pic"></div>
+                <div class="imgBx"><img src="image/pravin.jpg" alt="profile pic"></div>
                 <div class="contentBx">
-                    <h3>Mr. Vipul Rathod<br><span>Organizer</span></h3>
+                    <h3>Mr.<br><span>Faculty co-Ordinator</span></h3>
                 </div>
             </div>
        
@@ -283,7 +285,7 @@
 </div>
 
 
-<h1>WEB DESIGN TEAM </h1>
+<!-- <h1>WEB DESIGN TEAM </h1>
 
 <div class="container">
 
@@ -472,7 +474,7 @@
 </div>
 
 
-</div>
+</div> -->
 
 
 
@@ -1718,9 +1720,10 @@
 
 
 
-<a href="index.html" style="text-decoration: none;color:azure;">
-<h1>#sara_dycoe</h1>
-</a>
+    <a href="index.html" style="text-decoration: none;color:azure;">
+        <h1>#sara.dypcoe</h1>
+        </a>
+            
     
 </section>
 </div>
@@ -1799,7 +1802,7 @@ let stars = [];
 let pointerX,
     pointerY;
 
-let velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0005 };
+let velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0065 };
 
 let touchInput = false;
 
@@ -1910,8 +1913,8 @@ function step() {
 
 function update() {
 
-  velocity.tx *= 0.36;
-  velocity.ty *= 0.80;
+  velocity.tx *= 0.96;
+  velocity.ty *= 0.96;
 
   velocity.x += ( velocity.tx - velocity.x ) * 0.8;
   velocity.y += ( velocity.ty - velocity.y ) * 0.8;
@@ -1951,8 +1954,8 @@ function render() {
         tailY = velocity.y * 2;
 
     // stroke() wont work on an invisible line
-    if( Math.abs( tailX ) < 0.1 ) tailX = 0.5;
-    if( Math.abs( tailY ) < 0.1 ) tailY = 0.5;
+    if( Math.abs( tailX ) < 0.1 ) tailX = 1.0;
+    if( Math.abs( tailY ) < 0.1 ) tailY = 1.0;
 
     context.lineTo( star.x + tailX, star.y + tailY );
 
