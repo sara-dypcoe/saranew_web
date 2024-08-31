@@ -220,7 +220,11 @@ canvas {
     height: 400px;
     background: rgba(255, 255, 255, 0.05);
     margin: 20px;
+<<<<<<< HEAD
+    box-shadow: 0 15px 25px cyan  ;
+=======
     box-shadow: 0 15px 25px cyan;
+>>>>>>> 711ff9a078ee45ae858878b121a55b3600ddae17
     border-radius: 15px;
     display: flex;
     justify-content: center;
