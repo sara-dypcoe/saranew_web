@@ -55,13 +55,13 @@ html{
   .navbar a{
     text-decoration: none;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   
   
   .navbar a:hover{
     color: orange;
-    font-size: 17px;
+    font-size: 23px;
     transition: smooth;
   }
   
