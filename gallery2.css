@@ -13,13 +13,14 @@ body{
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
+    background-color: rgb(12,19,27);
     /* overflow-x: hidden; */
     /* overflow-y: hidden; */
     /* background:#000; */
     /* background: linear-gradient(125deg,#001d3e ,#88104d); */
     /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
     /* background-image: linear-gradient(-225deg, #8D0B93 50%, #321575 100%); */
-    background-image: url(image/bgforgallery.jpg) 
+    /* background-image: url(image/bgforgallery.jpg)  */
    
 }
 
@@ -58,8 +59,8 @@ body{
     z-index: 2;
     padding: 0 2rem;
     margin-top: 10px;
-    background: rgba(12, 12, 12, 0.685);
-    backdrop-filter: blur(150px);
+    background: rgba(255, 255, 255, 0.091);
+    backdrop-filter: blur(45px);
     border-radius:10px;
     width: 1800px;
   }
@@ -182,10 +183,10 @@ body{
         transform: translate(-50%, -50%);
         width: 900px;
         height: 500px;
-        background: #111111;
+        background: #0a0a0a;
         background-position: 50% 50%;
         background-size: cover;
-        box-shadow: 0 30px 50px #131313;
+        box-shadow: cyan;
         
     }
     
@@ -197,7 +198,8 @@ body{
         right: 300px;
         transform: translate(0, -50%);
         border-radius: 20px;
-        box-shadow: 0 30px 50px #505050; 
+        box-shadow: 0 10px 10px cyan; 
+        backdrop-filter: blur(10px);
         background-position: 50% 50%;
         background-size: cover;
         display: inline-block;
@@ -240,7 +242,7 @@ body{
         left: 100px;
         width: 300px;
         text-align: left;
-        color: #0d0d0d;
+        color: #f8f8f8;
         transform: translate(0, -50%);
         font-family: system-ui;
         display: none;
