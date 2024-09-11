@@ -218,8 +218,6 @@ html{
       position: relative;
       margin-left: 20px;
     }
-<<<<<<< HEAD
-      
       @keyframes example {
         0%   {color: white;}
       14.2%  {color: yellow;}
@@ -230,9 +228,7 @@ html{
       100% {color:white;} 
         
       }
-=======
-    
->>>>>>> dad8d6e72d1211e2556872c41af15d820b6bb428
+
  
  .heading p{
   color: azure;
