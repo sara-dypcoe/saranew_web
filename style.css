@@ -213,7 +213,7 @@ html{
       position: relative;
       margin-left: 20px;
     }
-    
+      
       @keyframes example {
         0%   {color: white;}
       14.2%  {color: yellow;}
