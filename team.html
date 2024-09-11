@@ -1057,7 +1057,7 @@
 <div class="container">
     <div class="cards">
         <div class="content">
-            <div class="imgBx"><img src="image/id.jpg" alt="profile pic"></div>
+            <div class="imgBx"><img src="image/ourteam/omharsule.jpg" alt="profile pic"></div>
             <div class="contentBx">
                 <h3>Om Harsule<br><span>Head</span></h3>
             </div>
@@ -1788,10 +1788,10 @@ toggleBtn.onclick = function(){
  .  *  move your mouse to over the stars   .
  *  .  .   change these values:   .  *
    .      * .        .          * .       */
-const STAR_COLOR = '#fff';
-const STAR_SIZE = 3;
+const STAR_COLOR = 'cyan';
+const STAR_SIZE = 4;
 const STAR_MIN_SCALE = 0.2;
-const OVERFLOW_THRESHOLD = 50;
+const OVERFLOW_THRESHOLD = 150;
 const STAR_COUNT = ( window.innerWidth + window.innerHeight ) / 8;
 
 const canvas = document.querySelector( 'canvas' ),
@@ -1806,7 +1806,7 @@ let stars = [];
 let pointerX,
     pointerY;
 
-let velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0065 };
+let velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0045 };
 
 let touchInput = false;
 
@@ -1917,8 +1917,8 @@ function step() {
 
 function update() {
 
-  velocity.tx *= 0.96;
-  velocity.ty *= 0.96;
+  velocity.tx *= 0.50;
+  velocity.ty *= 0.50;
 
   velocity.x += ( velocity.tx - velocity.x ) * 0.8;
   velocity.y += ( velocity.ty - velocity.y ) * 0.8;

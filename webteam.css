@@ -407,6 +407,8 @@ canvas {
     background: #ffcf4d;
     border: 1px solid rgba(255, 0, 88, 0.4);
     box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
+    backdrop-filter: blur(100px);
+    opacity: 100px;
 }
 
 .container2{
@@ -453,7 +455,7 @@ canvas {
     border-radius: 8px;
     transform: skewX(15deg);
     transition: 0.5s;
-    filter: blur(30px);
+    filter: blur(230px);
 }
     
 .container .box:hover:before,
@@ -465,22 +467,22 @@ canvas {
     
 .container .box:nth-child(1):before,
 .container .box:nth-child(1):after{
-    background: linear-gradient(315deg, #ffbc00, #ff0058)
+    background: linear-gradient(315deg, #e6e3db1a, #e2dedba6)
 }
     
 .container .box:nth-child(2):before,
 .container .box:nth-child(2):after{
-    background: linear-gradient(315deg, #03a9f4, #ff0058)
+    background: linear-gradient(315deg, #0799a39a,  #e2dedba6)
 }
     
 .container .box:nth-child(3):before,
 .container .box:nth-child(3):after{    
- background: linear-gradient(315deg, #768087, #87ceeb)
+ background: linear-gradient(315deg, #8903aab2,#e2dedba6)    
 }
 
 .container .box:nth-child(4):before,
 .container .box:nth-child(4):after{    
- background: linear-gradient(315deg, #0f83d6, #9ca70c)
+ background: linear-gradient(315deg, #ced1219d, #e2dedba6)
 }
     
 .container .box span
@@ -528,11 +530,11 @@ canvas {
     height: 100%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(0px);
     opacity: 0;
     transition: 0.5s;
     animation: animate 2s ease-in-out infinite;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 2);
     animation-delay: -1s;
 }
     
@@ -564,7 +566,7 @@ canvas {
     padding: 20px 40px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 4);
     border-radius: 8px;
     z-index: 1;
     transform: 0.5s;
