@@ -9,7 +9,8 @@
 .container{
     width: 100%;
     /* background-image: url(image/bg4.jpg); */
-    background:linear-gradient(to right bottom,#001d3e 50%,#88104d);
+    /* background:linear-gradient(to right bottom,#001d3e 50%,#88104d); */
+    background-color: #000;
     background-size: cover; 
     background-position: center;
     display: flex;
@@ -79,8 +80,35 @@ header{
 
 
 .navbar .logo img{
-  height: 130px;
-  width: 130px;
+  margin-top: 0px;
+  height: 9rem;
+  width: 9rem;
+
+  
+ 
+}
+.logo1 h2{
+margin-top: 40px;
+margin-left: 10px;
+font-size: 25px;
+color: rgb(255, 255, 255);
+font-family: "Roboto",sans-serif;
+font-weight: 100;
+font-style: normal;
+text-decoration: dashed;
+}
+.logo3 img{
+margin-top: 25px;
+height: 6rem;
+width: 7rem;
+margin-left: 10px;
+}
+
+
+.vl {
+  margin-top: 20px;
+  border-left: 2px solid rgb(255, 255, 255);
+  height: 100px;
 }
 
 .navbar .links{
