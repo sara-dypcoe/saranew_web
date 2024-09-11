@@ -76,7 +76,7 @@ canvas {
     background: rgba(255, 255, 255, 0.091);
     backdrop-filter: blur(1000px);
     border-radius:10px;
-    height: 125px;
+    height: 100px;
   }
   
   .navbar{
@@ -92,15 +92,16 @@ canvas {
   
   
   .navbar .logo img{
-    margin-top: 20px;
-    height: 10rem;
-    width: 12rem;
-    margin-left: -44px;
+    margin-top: 5px;
+    height: 8rem;
+    width: 9rem;
+    margin-left: -275px;
+    /* left: 1px; */
    
   }
 .logo1 h2{
   margin-top: 40px;
-  margin-left: 10px;
+  margin-left: 0px;
   font-size: 25px;
   color: rgb(255, 255, 255);
   font-family: "Roboto",sans-serif;
@@ -109,23 +110,24 @@ canvas {
   text-decoration: dashed;
   }
 .logo3 img{
-  margin-top: 45px;
-  height: 7rem;
-  width: 7rem;
+  margin-top: 31px;
+  height: 5rem;
+  width: 5rem;
   margin-left: 10px;
 }
 
 
   .vl {
-    margin-top: 48px;
+    margin-top: 20px;
     border-left: 2px solid rgb(255, 255, 255);
     height: 100px;
-    margin-left: -23px;
+    margin-left: -150px;
   }
   
   .navbar .links{
     display: flex;
     gap: 2rem;
+    margin-right: -250px;
   }
   
   
