@@ -109,13 +109,18 @@ html{
   font-style: normal;
   text-decoration: dashed;
   }
-  
+.logo3 img{
+  margin-top: 25px;
+  height: 7rem;
+  width: 10rem;
+  margin-left: 10px;
+}
 
 
   .vl {
-    margin-top: 25px;
+    margin-top: 12px;
     border-left: 2px solid rgb(255, 255, 255);
-    height: 55px;
+    height: 70px;
   }
   .navbar .links{
     display: flex;
@@ -205,25 +210,15 @@ html{
 
 
     .heading h1{
-      color: orange;
+      color: white;
       font-family: 'Audiowide', cursive;
       font-size:10rem;
-      transition: all 1s ease-in;
+      /* transition: all 1s ease-in; */
       text-shadow: 3.5px 3.5px white ;
       position: relative;
       margin-left: 20px;
     }
     
-      @keyframes example {
-        0%   {color: white;}
-      14.2%  {color: yellow;}
-      28.5%  {color: orange;}
-      42.67%  {color: #551818;}
-      56.92%  {color: orange}
-      71.6%  {color: yellow;}
-      100% {color:white;} 
-        
-      }
  
  .heading p{
   color: azure;
