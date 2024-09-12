@@ -69,8 +69,8 @@ html{
     position: absolute;
     top: 2px;
     padding: 0 1.8rem;
-    width: 100%;
-    margin-top: 10px; 
+    width: 98%;
+    margin-top: 5px; 
     background: rgba(255, 255, 255, 0.091);
     backdrop-filter: blur(30px);
     border-radius:10px;
@@ -93,8 +93,8 @@ html{
   
   .navbar .logo img{
     margin-top: 0px;
-    height: 10rem;
-    width: 12rem;
+    height: 130px;
+    width: 130px;
 
     
    
@@ -112,13 +112,13 @@ html{
 .logo3 img{
   margin-top: 25px;
   height: 7rem;
-  width: 10rem;
+  width: 7rem;
   margin-left: 10px;
 }
 
 
   .vl {
-    margin-top: 12px;
+    margin-top: 17px; 
     border-left: 2px solid rgb(255, 255, 255);
     height: 70px;
   }
@@ -214,11 +214,11 @@ html{
       font-family: 'Audiowide', cursive;
       font-size:10rem;
       /* transition: all 1s ease-in; */
-      text-shadow: 3.5px 3.5px white ;
+      text-shadow: 100px 3.5px rgb(73, 20, 20) ;
       position: relative;
       margin-left: 20px;
     }
-      @keyframes example {
+      /* @keyframes example {
         0%   {color: white;}
       14.2%  {color: yellow;}
       28.5%  {color: orange;}
@@ -227,7 +227,7 @@ html{
       71.6%  {color: yellow;}
       100% {color:white;} 
         
-      }
+      } */
 
  
  .heading p{
