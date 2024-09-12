@@ -93,8 +93,8 @@ html{
   
   .navbar .logo img{
     margin-top: 0px;
-    height: 130px;
-    width: 130px;
+    height: 106px;
+    width: 111px;
 
     
    
@@ -110,15 +110,15 @@ html{
   text-decoration: dashed;
   }
 .logo3 img{
-  margin-top: 25px;
-  height: 7rem;
-  width: 7rem;
+  margin-top: 22px;
+  height: 8rem;
+  width: 8rem;
   margin-left: 10px;
 }
 
 
   .vl {
-    margin-top: 17px; 
+    margin-top: 19px; 
     border-left: 2px solid rgb(255, 255, 255);
     height: 70px;
   }
