@@ -58,7 +58,7 @@
 <div class="container2">
 
 <section>
-    
+    <div id="particles-js"></div>
 <h1 style="font-size: 48px;">WEB DESIGN TEAM</h1>
 <div class="container">
     <div class="box">
@@ -136,35 +136,14 @@
 
 
 
+<script>
+    const position= document.documentElement;
+    position.addEventListener("mousemove",e =>{
+        position.style.setProperty('--x',e.clientX + 'px');
+    })
+</script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.0/swiper-bundle.min.js"></script>
-<!-- <script type="text/javascript" src="team.js"></script> -->
-<!-- <div id="patricles-js"></div>
-<script src="particles.js"></script>
-<script src="app.js"></script> -->
-<!-- <script src="weteam.js"></script> -->
 <script>
     const toggleBtn = document.querySelector('.toggle_btn')
     const toggleBtnIcon = document.querySelector('.toggle_btn i')
@@ -180,117 +159,13 @@ toggleBtn.onclick = function(){
 }
 
 
-</script>
-<script>
-const langs = [
-	"VED OSWAL","PRAVIN KORDE","OM HARSULE","PRANAV PATIL","ISHAAN PATIL","DISHANK PATEL","ABHIJEET MEKHE",
-    "VED OSWAL","PRAVIN KORDE","OM HARSULE","PRANAV PATIL","ISHAAN PATIL","DISHANK PATEL","ABHIJEET MEKHE",
-    "VED OSWAL","PRAVIN KORDE","OM HARSULE","PRANAV PATIL","ISHAAN PATIL","DISHANK PATEL","ABHIJEET MEKHE",
-    "VED OSWAL","PRAVIN KORDE","OM HARSULE","PRANAV PATIL","ISHAAN PATIL","DISHANK PATEL","ABHIJEET MEKHE",
-    "VED OSWAL","PRAVIN KORDE","OM HARSULE","PRANAV PATIL","ISHAAN PATIL","DISHANK PATEL","ABHIJEET MEKHE",
-    "VED OSWAL","PRAVIN KORDE","OM HARSULE","PRANAV PATIL","ISHAAN PATIL","DISHANK PATEL","ABHIJEET MEKHE",
-    "VED OSWAL","PRAVIN KORDE","OM HARSULE","PRANAV PATIL","ISHAAN PATIL","DISHANK PATEL","ABHIJEET MEKHE",
-    "VED OSWAL","PRAVIN KORDE","OM HARSULE","PRANAV PATIL","ISHAAN PATIL","DISHANK PATEL","ABHIJEET MEKHE",
-    "VED OSWAL","PRAVIN KORDE","OM HARSULE","PRANAV PATIL","ISHAAN PATIL","DISHANK PATEL","ABHIJEET MEKHE",
-];
 
-let charSize = 18;
-let streams = [];
 
-class Char {
-	constructor(value, x, y, speed) {
-		this.value = value;
-		this.x = x;
-		this.y = y;
-		this.speed = speed;
-	}
 
-	draw() {
-		const flick = random(100);
-		if (flick < 10) {
-			fill(120, 30, 100);
-			text(round(random(9)), this.x, this.y);
-		} else {
-			text(this.value, this.x, this.y);
-		}
-
-		// fall down
-		this.y = this.y > height ? 0 : this.y + this.speed;
-	}
-}
-
-class Stream {
-	constructor(text, x) {
-		const y = random(-1000, 1000); // Starting offscreen
-		const speed = random(2, 10);
-		this.chars = [];
-
-		// Safeguard against out of bounds issues
-		for (let i = 0; i < text.length; i++) {
-			this.chars.push(
-				new Char(text[i], x, (y + i * charSize), speed)
-			);
-		}
-	}
-
-	draw() {
-		fill(120, 100, 100);
-		this.chars.forEach((c, i) => {
-			const lit = random(100);
-			if (lit < 30) {
-				if (i === this.chars.length - 1) {
-					fill(120, 30, 100);
-				} else {
-					fill(120, 100, 90);
-				}
-			}
-			c.draw();
-		});
-	}
-}
-
-function createStreams() {
-	console.log("Creating streams...");
-	for (let i = 0; i < width; i += charSize) {
-		streams.push(new Stream(random(langs), i));
-	}
-	console.log("Streams created:", streams.length);
-}
-
-function reset() {
-	console.log("Resetting streams...");
-	streams = [];
-	createStreams();
-}
-
-function setup() {
-	console.log("Setting up canvas...");
-	createCanvas(5000, 1600);
-	reset();
-	frameRate(60);
-	colorMode(HSB);
-	noStroke();
-	textSize(charSize);
-	textFont("monospace");
-	background(0);
-	console.log("Setup complete.");
-}
-
-function draw() {
-	background(0, 0.4);
-	streams.forEach((s) => s.draw());
-}
-
-function windowResized() {
-	console.log("Window resized.");
-	resizeCanvas(windowWidth, windowHeight);
-	background(0);
-	reset();
-}
 
 </script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+<script src="particles.js"></script>
+<script src="app.js"></script>
 
 
 
