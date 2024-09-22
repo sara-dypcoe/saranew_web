@@ -463,13 +463,14 @@ html{
 .gallerycontainer{
     padding: 2rem;
     background: #001d3e;
-   
+    display: flex;
 }
 
 .galleryslider-wrapper{
     position: relative;
     max-width: 45rem;
     margin: 0 auto;
+    display: flex;
    
 }
 
@@ -481,7 +482,6 @@ html{
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
     border-radius: 0.5rem;
-    
 }
 
 .galleryslider img{
@@ -505,15 +505,15 @@ html{
 
 
 .gallery .insider{
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 }
 
 
 .gallery .insider h1{
     color: #fff;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
@@ -842,4 +842,22 @@ text-align:center;
 font-size:2.1rem;
 background:#001d3e;
 border-radius: 5px;
+}
+
+
+/* Abijeet code */
+
+.gallerycontainer {
+  margin-top: -40px;
+  left: -30px;
+}
+
+.insider {
+  left: auto;
+}
+
+
+.container4 {
+  height: 220px;
+  text-align: center;
 }
