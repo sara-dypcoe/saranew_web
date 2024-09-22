@@ -137,8 +137,8 @@ dropdownmenu */
   top: 60px;
   width: 350px;
   height: 0;
-  background: rgba(255,255,255,0.1);
-  backdrop-filter: blur(15px);
+  background: linear-gradient(to right bottom,#647501 50%,#1d0a88);
+  /* backdrop-filter: blur(15px); */
   border-radius:10px;
   overflow: hidden;
   display: none;
