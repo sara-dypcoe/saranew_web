@@ -25,7 +25,15 @@ body{
    
 }
 
-canvas {
+#particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  }
+  
+
+/* canvas {
   width: 100%;
   height: 100%;
   display: block;
@@ -33,18 +41,19 @@ canvas {
   top: 0;
   left: 0;
   z-index: -1; /* Ensure the canvas stays in the background */
-}
+ */
 
-#overlay-content {
+/* #overlay-content {
   position: relative;
-  z-index: 1; /* Place the overlay content on top of the canvas */
+  z-index: 1; /* Place the overlay content on top of the canvas 
   color: cyan;
   text-align: center;
   font-size: 24px;
-  margin-top: 50px; /* Or any other layout adjustments you need */
-}
+  height: 10px;
+  /* margin-top: 50px; Or any other layout adjustments you need */
 
 
+ */
 
 
 
@@ -502,22 +511,22 @@ canvas {
     
 .container .box:nth-child(1):before,
 .container .box:nth-child(1):after{
-    background: linear-gradient(315deg, #e6e3db1a, #e2dedba6)
+    background: linear-gradient(315deg, #ff0062, #000000)
 }
     
 .container .box:nth-child(2):before,
 .container .box:nth-child(2):after{
-    background: linear-gradient(315deg, #0799a39a,  #e2dedba6)
+    background: linear-gradient(315deg, #03eeff,  #000000)
 }
     
 .container .box:nth-child(3):before,
 .container .box:nth-child(3):after{    
- background: linear-gradient(315deg, #8903aab2,#e2dedba6)    
+ background: linear-gradient(315deg, #cc02ff,#000000)    
 }
 
 .container .box:nth-child(4):before,
 .container .box:nth-child(4):after{    
- background: linear-gradient(315deg, #ced1219d, #e2dedba6)
+ background: linear-gradient(315deg, #fbff00, #000000)
 }
     
 .container .box span

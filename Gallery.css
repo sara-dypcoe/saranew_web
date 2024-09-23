@@ -15,7 +15,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right, rgba(194, 4, 52, 0.678), rgba(19, 17, 129, 0.411));
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
   width: 100%;
   background-size: cover;
 }
@@ -106,7 +106,7 @@ body {
 }
 
 .flip-card-back {
-   background: linear-gradient(135deg , #000000, #000000, #000000);
+   background: linear-gradient(135deg , #ffffff, #eec249fa, #ffffff);
   color: #fff;
   transform: rotateY(180deg);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
