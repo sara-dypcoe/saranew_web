@@ -25,7 +25,15 @@ body{
    
 }
 
-canvas {
+#particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  }
+  
+
+/* canvas {
   width: 100%;
   height: 100%;
   display: block;
@@ -33,18 +41,19 @@ canvas {
   top: 0;
   left: 0;
   z-index: -1; /* Ensure the canvas stays in the background */
-}
+ */
 
-#overlay-content {
+/* #overlay-content {
   position: relative;
-  z-index: 1; /* Place the overlay content on top of the canvas */
+  z-index: 1; /* Place the overlay content on top of the canvas 
   color: cyan;
   text-align: center;
   font-size: 24px;
-  margin-top: 50px; /* Or any other layout adjustments you need */
-}
+  height: 10px;
+  /* margin-top: 50px; Or any other layout adjustments you need */
 
 
+ */
 
 
 
@@ -156,8 +165,8 @@ canvas {
     top: 60px;
     width: 300px;
     height: 0;
-    background: linear-gradient(to right bottom,#001d3e 50%,#88104d);
-    backdrop-filter: blur(15px);
+    background: linear-gradient(to right bottom,#647501 50%,#1d0a88);
+    /* backdrop-filter: blur(15px); */
     border-radius:10px;
     overflow: hidden;
     display: none;
@@ -517,7 +526,11 @@ canvas {
 
 .container .box:nth-child(4):before,
 .container .box:nth-child(4):after{    
+<<<<<<< HEAD
  background: linear-gradient(315deg, #fbff00, #060605)
+=======
+ background: linear-gradient(315deg, #fbff00, #000000)
+>>>>>>> 5cfd0f432e606bf15548bf598fe3f7128b0fb7a2
 }
     
 .container .box span
