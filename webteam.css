@@ -163,8 +163,8 @@ canvas {
     display: none;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     
-    
-  }
+  
+   }
   
   .dropdown_menu.open{
     height: 240px;
@@ -502,22 +502,22 @@ canvas {
     
 .container .box:nth-child(1):before,
 .container .box:nth-child(1):after{
-    background: linear-gradient(315deg, #e6e3db1a, #e2dedba6)
+    background: linear-gradient(315deg, #ff0062, #000000)
 }
     
 .container .box:nth-child(2):before,
 .container .box:nth-child(2):after{
-    background: linear-gradient(315deg, #0799a39a,  #e2dedba6)
+    background: linear-gradient(315deg, #03eeff,  #000000)
 }
     
 .container .box:nth-child(3):before,
 .container .box:nth-child(3):after{    
- background: linear-gradient(315deg, #8903aab2,#e2dedba6)    
+ background: linear-gradient(315deg, #cc02ff,#000000)    
 }
 
 .container .box:nth-child(4):before,
 .container .box:nth-child(4):after{    
- background: linear-gradient(315deg, #ced1219d, #e2dedba6)
+ background: linear-gradient(315deg, #fbff00, #060605)
 }
     
 .container .box span

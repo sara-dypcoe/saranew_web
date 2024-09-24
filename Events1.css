@@ -384,7 +384,7 @@ dropdownmenu */
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg,#ffbc00,#ff0058);
+    background: linear-gradient(45deg,#6868689d,#d3d3d397);
     border-radius: 40px;
  }
 
@@ -395,20 +395,20 @@ dropdownmenu */
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg,#ffbc00,#ff0058);
+    background: linear-gradient(45deg,#d3d3d397,#d3d3d397);
     filter: blur(30px);
     
  }
 
  .container1 .box:nth-child(2)::before,
  .container1 .box:nth-child(2)::after{
-    background: linear-gradient(315deg,#03a9f4,#ff0058);
+    background: linear-gradient(315deg,#d3d3d388,#d3d3d397);
 
  }
 
  .container1 .box:nth-child(3)::before,
  .container1 .box:nth-child(3)::after{
-    background: linear-gradient(315deg,#4dff03,#00d0ff);
+    background: linear-gradient(315deg,#d3d3d347,#d3d3d397);
 
  }
 
@@ -418,7 +418,7 @@ dropdownmenu */
     left: 6px;
     right: 6px;
     bottom: 6px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.367);
     z-index: 2;
     border-radius:40px;
  }
@@ -430,7 +430,7 @@ dropdownmenu */
     left: 0;
     width: 50px;
     height: 100%;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.036);
     pointer-events:none;
     border-radius: 40px;
    
@@ -447,7 +447,7 @@ dropdownmenu */
 
  .container1 .box .content h2{
     font-size: 1.5em;
-    color: #fff;
+    color: #f7a83a;
     margin-bottom: 10px;
  }
 
@@ -462,12 +462,12 @@ dropdownmenu */
  .container1 .box .content a{
     display: inline-block;
     font-size: 1em;
-   color:#fff;
+   color:#f7a83a;
     padding: 10px;
     text-decoration: none;
     font-weight: 700;
     border-radius: 15px;
-    border: #fff  2px solid;
+    border:#f7a83a   2px solid;
     background-color: transparent;
     margin-left: 10px;
     margin-top: 5px;
